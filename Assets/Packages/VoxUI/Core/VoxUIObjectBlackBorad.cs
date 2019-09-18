@@ -49,7 +49,7 @@ public class VoxUIObjectBlackBorad : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// string type의 key를 이용하여 uiObjects에 등록된 UIObjectInfo 객체 반환
     /// </summary>
     /// <param name="key"></param>
     /// <returns></returns>
