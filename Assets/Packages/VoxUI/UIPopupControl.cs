@@ -35,49 +35,6 @@ public class UIPopupControl : MonoBehaviour
 
     // -------------------------------------------------------------------------- Methods -------------------------------------------------------------------------- //
 
-    //public void SelectUI(string key)
-    //{
-    //    VoxUIObjectInfo currentUIObj = _uiObjBB.GetUIObjectInfoByKey(key);
-    //    if (currentUIObj == null)
-    //    {
-    //        Debug.Log("없는 키");
-    //        return;
-    //    }
-
-
-    //    if (SelectedUIObj != currentUIObj)
-    //    {
-    //        SelectedUIObj = currentUIObj;
-
-    //        ShowSelectedUI(SelectedUIObj);
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("UIPopupControl: 중복된 오브젝트 선택");
-    //    }
-
-    //    //try
-    //    //{
-    //    //    currentUIObj = _uiObjBB.GetUIObjectInfoByKey(key);
-
-    //    //    if (SelectedUIObj != currentUIObj)
-    //    //    {
-    //    //        SelectedUIObj = currentUIObj;
-    //    //        Debug.Log("선택: " + SelectedUIObj);
-    //    //    }
-    //    //    else
-    //    //    {
-    //    //        Debug.Log("중복: " + SelectedUIObj);
-    //    //    }
-    //    //}
-    //    //catch (System.NullReferenceException nullException)
-    //    //{
-    //    //    Debug.Log(nullException);
-
-    //    //    return;
-    //    //}
-    //}
-
     public void SelectPopupUI(string key)
     {
         VoxUIObjectInfo[] objectInfos = _uiObjBB.GetUIObjectInfosToArray();
